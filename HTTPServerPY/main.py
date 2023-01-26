@@ -3,8 +3,8 @@
 import os
 import sys
 import signal
-import connection
-from httpHandler import Request, Response
+from . import connection
+from .httpHandler import Request, Response
 
 PATH = os.getcwd()
 SERVER_HOST = '0.0.0.0'

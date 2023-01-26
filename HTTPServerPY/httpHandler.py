@@ -2,7 +2,7 @@
 
 import os
 from urllib.parse import urlparse
-from extension import EXTENSION_MAPPER
+from .extension import EXTENSION_MAPPER
 
 DEFAULT_FILE_PATH = "/index.html"
 

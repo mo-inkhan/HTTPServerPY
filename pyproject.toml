@@ -1,6 +1,6 @@
 [project]
 name = "HTTPServerPY"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Moin Khan", email="mo.inkhan@aol.com" },
 ]

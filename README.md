@@ -1,7 +1,7 @@
 HTTPServerPY
 =======
 
-Author: **[Moin Khan]**
+Author: **[Moin Khan](https://github.com/mo-inkhan)**
 
 
 # HTTPServerPY: A lightweight static HTTP server written in Python
