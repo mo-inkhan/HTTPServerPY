@@ -114,7 +114,7 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 def main() -> None:
-    """Execute starts here"""
+    """Execution starts here"""
 
     while True:
         try:
