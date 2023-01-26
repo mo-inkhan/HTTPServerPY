@@ -3,7 +3,6 @@ HTTPServerPY
 
 Author: **[Moin Khan](https://github.com/mo-inkhan)**
 
-
 # HTTPServerPY: A lightweight static HTTP server written in Python
 
 ## Introduction
@@ -22,19 +21,19 @@ This will install `HTTPServerPY` globally so that it may be run from the command
 
     py -m HTTPServerPY [host] [port] [path] [options]
 
-`[host]` defaults localhost | 0.0.0.0.
-`[port]` defaults 8000.
-`[path]` defaults to the current directory `./`.
+`[host]` defaults `localhost` | `0.0.0.0`.
+`[port]` defaults `8000`.
+`[path]` defaults `./` the current directory.
 
 *Now you can visit http://localhost:8080 to view your server*
 
 ## Available Options:
 
-| Command         | 	Description         | Defaults  |
-| -------------  |-------------|-------------|------|
-|`-p` or `--port` |Port to use. Use `-p=8080` to serve at 8080 port| 8000 |
-|`-h` or `--host` |Host to use. Use `-h=0.0.0.0` to serve at localhost | 0.0.0.0 |
-|`-pth` or `--path` |Path to serve from. Use `--path=./my_folder` to serve from `my_folder` present in current folder| ./ |
+| Command            | Description                                                                                      | Defaults |
+| :----------------- | :----------------------------------------------------------------------------------------------- | :------- |
+| `-p` or `--port`   | Port to use. Use `-p=8080` to serve at 8080 port                                                 | 8000     |
+| `-h` or `--host`   | Host to use. Use `-h=0.0.0.0` to serve at localhost                                              | 0.0.0.0  |
+| `-pth` or `--path` | Path to serve from. Use `--path=./my_folder` to serve from `my_folder` present in current folder | ./       |
 
 ## Magic Files
 
