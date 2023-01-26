@@ -31,10 +31,10 @@ This will install `HTTPServerPY` globally so that it may be run from the command
 ## Available Options:
 
 | Command         | 	Description         | Defaults  |
-| -------------  |-------------|-------------|
-|`-p` or `--port` |Port to use. Use `-p=8080` to serve at 8080 port|
-|`-h` or `--host` |Host to use. Use `-h=0.0.0.0` to serve at localhost |
-|`-pth` or `--path` |Path to serve from. Use `--path=./my_folder` to serve from `my_folder` present in current folder|
+| -------------  |-------------|-------------|------|
+|`-p` or `--port` |Port to use. Use `-p=8080` to serve at 8080 port| 8000 |
+|`-h` or `--host` |Host to use. Use `-h=0.0.0.0` to serve at localhost | 0.0.0.0 |
+|`-pth` or `--path` |Path to serve from. Use `--path=./my_folder` to serve from `my_folder` present in current folder| ./ |
 
 ## Magic Files
 
@@ -43,7 +43,6 @@ This will install `HTTPServerPY` globally so that it may be run from the command
 - `405.html` will be served if a requested method is not supported.
 
 *Now you can visit http://localhost:8080 to view your server*
-````
 
 ---
 
