@@ -2,4 +2,4 @@
 
 import HTTPServerPY
 
-HTTPServerPY.main.main()
+HTTPServerPY.server.main()
